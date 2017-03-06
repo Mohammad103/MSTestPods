@@ -32,9 +32,9 @@ Testing pods to test excluding file from pods that we are working on VFG
 
   s.source_files = 'MSTestPods/Classes/**/*'
   
-  s.resource_bundles = {
-    'MSTestPods' => ['MSTestPods/Assets/*.png']
-  }
+  # s.resource_bundles = {
+    #   'MSTestPods' => ['MSTestPods/Assets/*.png']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
