@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MSTestPods'
-  s.version          = '0.5.0'
+  s.version          = '0.5.2'
   s.summary          = 'Testing pods to test excluding file from pods'
 
 # This description is used to generate tags and improve search results.
@@ -41,4 +41,7 @@ Testing pods to test excluding file from pods that we are working on VFG
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency 'MSUtility'
+
 end
