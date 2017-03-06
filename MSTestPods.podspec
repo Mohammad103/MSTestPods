@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Testing pods to test excluding file from pods that we are working on VFG
                        DESC
 
   s.homepage         = 'https://github.com/Mohammad103/MSTestPods'
