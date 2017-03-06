@@ -31,6 +31,8 @@ Testing pods to test excluding file from pods that we are working on VFG
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'MSTestPods/Classes/**/*'
+
+  s.exclude_files = 'MSTestPods/Classes/TestClass.swift'
   
   # s.resource_bundles = {
     #   'MSTestPods' => ['MSTestPods/Assets/*.png']
