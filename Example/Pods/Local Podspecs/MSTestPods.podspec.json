@@ -1,0 +1,22 @@
+{
+  "name": "MSTestPods",
+  "version": "0.1.0",
+  "summary": "A short description of MSTestPods.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mohammad103/MSTestPods",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mohammad103": "mohammad.shaker.103@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Mohammad103/MSTestPods.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MSTestPods/Classes/**/*"
+}

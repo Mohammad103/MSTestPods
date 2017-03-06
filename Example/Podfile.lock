@@ -1,0 +1,16 @@
+PODS:
+  - MSTestPods (0.1.0)
+
+DEPENDENCIES:
+  - MSTestPods (from `../`)
+
+EXTERNAL SOURCES:
+  MSTestPods:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MSTestPods: a64ca8e2f570106d192f12e021135bfa6ab53e3e
+
+PODFILE CHECKSUM: 8542e57056afa623802577b78988006f43ce8da4
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,6 @@
+framework module MSTestPods {
+  umbrella header "MSTestPods-umbrella.h"
+
+  export *
+  module * { export * }
+}
