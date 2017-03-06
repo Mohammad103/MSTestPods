@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21C512A6D063282394F70717 /* MSTestPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MSTestPods.podspec; path = ../MSTestPods.podspec; sourceTree = "<group>"; };
+		21C512A6D063282394F70717 /* MSTestPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MSTestPods.podspec; path = ../MSTestPods.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MSTestPods_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSTestPods_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,12 +39,12 @@
 		607FACE51AFB9204008FA782 /* MSTestPods_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSTestPods_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		76F113C2EB3CB30A2666D06F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		76F113C2EB3CB30A2666D06F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		869CB151378CEECD4A5039E9 /* Pods_MSTestPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSTestPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F25A67967E279BD99AFC3C /* Pods-MSTestPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSTestPods_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSTestPods_Tests/Pods-MSTestPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A6FA8010AA56B67961829154 /* Pods-MSTestPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSTestPods_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSTestPods_Example/Pods-MSTestPods_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A8A620C3B3A081FEAA08B609 /* Pods_MSTestPods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSTestPods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C96F49B7C5B12F9665081E65 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C96F49B7C5B12F9665081E65 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DF6F3DDC5029E99B13245DC5 /* Pods-MSTestPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSTestPods_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSTestPods_Tests/Pods-MSTestPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB49DEBAD0ED849CA62C25E8 /* Pods-MSTestPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSTestPods_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSTestPods_Example/Pods-MSTestPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -497,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MSTestPods/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -511,6 +512,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MSTestPods/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
